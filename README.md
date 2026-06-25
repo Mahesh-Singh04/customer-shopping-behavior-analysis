@@ -161,5 +161,4 @@ jupyter notebook customer_shopping_behavior_analysis_jupyterNotebook.ipynb
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — feel free to use and learn from it.<img width="572" height="327" alt="Customer_behavior_analysis_dashboard" src="https://github.com/user-attachments/assets/4d01b2db-5274-4e4c-a8ca-1b67b3ed8bca" />
-<img width="572" height="327" alt="Customer_behavior_analysis_dashboard" src="https://github.com/user-attachments/assets/dd4f5b09-381d-43bd-b1f3-ee83268cd74e" />
+
