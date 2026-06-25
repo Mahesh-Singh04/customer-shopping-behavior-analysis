@@ -160,5 +160,5 @@ jupyter notebook customer_shopping_behavior_analysis_jupyterNotebook.ipynb
 ---
 
 ## 📄 License
-
+This project is licensed under the MIT License — feel free to use and learn from it.
 
