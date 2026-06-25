@@ -1,4 +1,3 @@
-# customer-shopping-behavior-analysis
 # 🛍️ Customer Shopping Behavior Analysis
 
 An end-to-end data analytics project analyzing customer shopping patterns across 3,900 transactions — covering Python data cleaning, SQL business analysis, and an interactive Power BI dashboard.
@@ -8,6 +7,21 @@ An end-to-end data analytics project analyzing customer shopping patterns across
 ## 📌 Project Overview
 
 This project uncovers insights into customer spending patterns, product preferences, customer segmentation, and subscription behavior using real transactional retail data. The goal is to help businesses make smarter, data-driven decisions.
+
+### 🔄 Project Workflow
+
+<img width="4872" height="2656" alt="Project Overview" src="https://github.com/user-attachments/assets/7bfef409-5dd3-4721-8c26-028efd3a8a21" />
+
+
+| Step | Phase | Description |
+|---|---|---|
+| 01 | Business Problem Statement | Defined the business questions to answer |
+| 02 | Data Modelling & EDA in Python | Imported data, cleaned and explored using Python |
+| 03 | Data Analysis in SQL | Loaded data into MySQL and ran business queries |
+| 04 | Interactive Dashboard in Power BI | Connected MySQL to Power BI and built dashboard |
+| 05 | Project Report | Summarized all findings into a detailed report |
+| 06 | Presentation using Gamma AI | Presented insights to stakeholders |
+| 07 | GitHub Repository | Uploaded all project files to GitHub |
 
 ---
 
@@ -27,16 +41,14 @@ This project uncovers insights into customer spending patterns, product preferen
 customer-shopping-behavior-analysis/
 │
 ├── README.md
-├── data/
-│   └── shopping_data_cleaned.csv
-├── notebooks/
-│   └── data_cleaning.ipynb
-├── sql/
-│   └── analysis_queries.sql
-├── dashboard/
-│   └── customer_behavior_dashboard.pbix
-└── screenshots/
-    └── dashboard_overview.png
+├── LICENSE
+├── customer_shopping_behavior_data.csv
+├── customer_shopping_behavior_analysis_jupyterNotebook.ipynb
+├── customer_shopping_behavior_sql_quaries.sql
+├── Customer_Shopping_Behavior_dashboard.pbix
+├── Customer_Shopping_Behavior_Analysis_Report.pdf
+├── Business Problem Document.pdf
+└── Customer-Shopping-Behavior-Analysis.pptx
 ```
 
 ---
@@ -95,7 +107,8 @@ Built an interactive **Customer Behavior Dashboard** featuring:
 - **Horizontal Bar Charts** — Revenue by Age Group, Sales by Age Group
 - **Slicers/Filters** — Subscription Status, Gender, Category, Shipping Type
 
-> <img width="572" height="327" alt="Customer_behavior_analysis_dashboard" src="https://github.com/user-attachments/assets/ca967de6-6972-4a1c-b4bd-37a442b95f2a" />
+><img width="572" height="327" alt="Customer_behavior_analysis_dashboard" src="https://github.com/user-attachments/assets/fc6154e8-c930-4075-b1b6-085b5c0feb5f" />
+
 
 ---
 
@@ -130,12 +143,12 @@ cd customer-shopping-behavior-analysis
 
 2. Run the data cleaning notebook
 ```bash
-jupyter notebook notebooks/data_cleaning.ipynb
+jupyter notebook customer_shopping_behavior_analysis_jupyterNotebook.ipynb
 ```
 
-3. Load the cleaned CSV into MySQL and run `sql/analysis_queries.sql`
+3. Load `customer_shopping_behavior_data.csv` into MySQL and run `customer_shopping_behavior_sql_quaries.sql`
 
-4. Open `dashboard/customer_behavior_dashboard.pbix` in Power BI Desktop
+4. Open `Customer_Shopping_Behavior_dashboard.pbix` in Power BI Desktop
 
 ---
 
@@ -148,4 +161,5 @@ jupyter notebook notebooks/data_cleaning.ipynb
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — feel free to use and learn from it.
+This project is licensed under the **MIT License** — feel free to use and learn from it.<img width="572" height="327" alt="Customer_behavior_analysis_dashboard" src="https://github.com/user-attachments/assets/4d01b2db-5274-4e4c-a8ca-1b67b3ed8bca" />
+<img width="572" height="327" alt="Customer_behavior_analysis_dashboard" src="https://github.com/user-attachments/assets/dd4f5b09-381d-43bd-b1f3-ee83268cd74e" />
